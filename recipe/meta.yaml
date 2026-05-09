@@ -1,13 +1,13 @@
 {% set name = "itmlogic" %}
-{% set version = "0.1" %}
+{% set version = "1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa65eb9bff2a0ff3798bc10d6962874aa594d4ed9826d4a36c23cb3b81115e51
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 30652f80779b441701d1733c6a0912bcecdd9504d746500fc01a40e4166fb50e
 
 build:
   noarch: python
